@@ -93,6 +93,21 @@ img {
     margin: 1rem 0;
 }
 
+/* Section B */
+.section-b {
+    position: relative;
+    background: url('../img/https://w.wallhaven.cc/full/6k/wallhaven-6kww77.png') no-repeat bottom center cover;
+    height: 600px;
+}
+
+.section-b-inner {
+    color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    alig
+}
+
 /* Utilities */
 .btn {
     display: inline-block;
@@ -107,4 +122,13 @@ img {
 
 .btn:hover {
     background: var(--secondary-color);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--overlay-color);
 }
