@@ -1,7 +1,7 @@
 :root {
     --primary-color: #333;
     --secondary-color: #444;
-    --overlay-color: rgba(0, 0, 0, 0.7);
+    --overlay-color: rgba(0, 0, 0, 0.1);
 }
 
 * {
@@ -96,7 +96,7 @@ img {
 /* Section B */
 .section-b {
     position: relative;
-    background: url('../img/https://w.wallhaven.cc/full/6k/wallhaven-6kww77.png') no-repeat bottom center cover;
+    background-image: url(https://w.wallhaven.cc/full/6k/wallhaven-6kww77.png);
     height: 600px;
 }
 
@@ -105,8 +105,28 @@ img {
     height: 100%;
     display: flex;
     flex-direction: column;
-    alig
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    max-width: 860px;
+    padding: 5rem 0;
 }
+
+.section-b-inner h3 {
+    font-size: 2rem;
+}
+
+.section-b-inner h2 {
+    font-size: 5rem;
+    margin-top: 1rem;
+}
+
+.section-b-inner p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
 
 /* Utilities */
 .btn {
