@@ -1,9 +1,3 @@
-:root {
-    --primary-color: #333;
-    --secondary-color: #444;
-    --overlay-color: rgba(0, 0, 0, 0.1);
-}
-
 *::before,
 *::after {
     margin: 0;
@@ -199,4 +193,55 @@ nav {
     text-transform: lowercase;
 }
 
-.
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 2.5rem;
+}
+
+.info-grid-item {
+    height: 40rem;
+    padding: 5rem;
+    color: #fafafa;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.info-grid-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: rgba(49, 24, 131, 0.9) 0% rgba(72, 56, 149, 0.8) 100%;
+    z-index: -1;
+}
+
+.tanjiro {
+    background: url("") center no-repeat;
+}
+
+.insokue {
+    background: url("") center no-repeat;
+}
+
+.zenitsu {
+    background: url("") center no-repeat;
+}
+
+.info-grid-item i {
+    font-size: 4rem;
+    color: aqua;
+}
+
+.info-grid-item h1 {
+    font-family: 'Aldrich' sans-serif;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    margin: 2rem 0;
+}
