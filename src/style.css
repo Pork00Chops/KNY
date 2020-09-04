@@ -121,7 +121,7 @@ nav {
     content: "";
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: -3px;
     height: 4.7rem;
     background: url("img/wave-small.png") center no-repeat;
     background-size: cover;
@@ -253,3 +253,88 @@ footer {
     color: rgba(0, 0, 0, .7);
 }
 
+@media screen and (min-width: 350px) {
+    .main-message {
+        transform: translateY(40%);
+    }
+}
+
+@media screen and (min-width: 470px) {
+    .hero::before {
+        height: 9.4rem;
+        background: url("img/wave-medium.png");
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    header {
+        height: 8rem;
+    }
+    .nav-brand {
+        width: 3.5rem;
+    }
+    .nav-list {
+        width: initial;
+        height: initial;
+        background-color: transparent;
+        position: initial;
+        right: initial;
+        flex-direction: row;
+        transition: initial;
+    }
+    .menu-icons {
+        display: none;
+    }
+    .nav-item {
+        margin: 0 2.5rem;
+    }
+    .nav-link,
+    .current {
+        color: #fafafa;
+        position: relative;
+        font-size: 1.3rem;
+    }
+    .nav-link::before,
+    .current::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -.5rem;
+        width: 100%;
+        background-color: #ed64ed;
+        height: 2px;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 650ms;
+    }
+    .current::before {
+        transform: scaleX(1);
+    }
+    .nave-link::hover::before {
+        transform: scaleX(1);
+    }
+    .hero {
+        height: 60vh;
+    }
+    .main-message {
+        transform: translateY(50%);
+    }
+    .title-heading h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 950px) {
+    .hero::before {
+        height: 22.7rem;
+        background: url("img/wave-large.png");
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .hero {
+        height: 75vh;
+    }
+}
