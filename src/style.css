@@ -245,3 +245,11 @@ nav {
     text-transform: uppercase;
     margin: 2rem 0;
 }
+
+footer {
+    padding: 2.5rem 0;
+    background-color: #d7d4ed;
+    text-align: center;
+    color: rgba(0, 0, 0, .7);
+}
+
