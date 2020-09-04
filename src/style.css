@@ -174,12 +174,29 @@ nav {
     background-color: #ce587b;
 }
 
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: var(--overlay-color);
+.hero2 {
+    padding: 0;
 }
 
+.title-heading {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10rem;
+    color: rgba(0, 0, 0, .7);
+}
+
+.title-heading h2 {
+    font-size: 1.4rem;
+}
+
+.title-heading h1 {
+    font-family: 'Aldrich', sans-serif;
+    font-size: 2rem;
+    margin: .5rem 0 1rem;
+}
+
+.title-heading p {
+    text-transform: lowercase;
+}
+
+.
