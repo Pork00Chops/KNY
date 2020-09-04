@@ -22,10 +22,6 @@ body {
     height: 100%;
     background-position: center;
     background-size: cover;
-<<<<<<< HEAD
-    
-=======
->>>>>>> 6ad30bd871f4d3887b4666d9b86364e89611ba63
 }
 
 h1, h2, h3, h4 {
@@ -108,17 +104,10 @@ img {
 /* Section B */
 .section-b {
     position: relative;
-<<<<<<< HEAD
    /* background-image: url(https://w.wallhaven.cc/full/6k/wallhaven-6kww77.png); */
     background-position: center;
     background-size: cover;
     height: 400px;
-=======
-    background-image: url(https://w.wallhaven.cc/full/6k/wallhaven-6kww77.png);
-    background-position: center center;
-    background-size: 50px 50px;
-    height: 600px;
->>>>>>> 6ad30bd871f4d3887b4666d9b86364e89611ba63
 }
 
 .section-b-inner {
@@ -139,11 +128,7 @@ img {
 }
 
 .section-b-inner h2 {
-<<<<<<< HEAD
     font-size: 3rem;
-=======
-    font-size: 5rem;
->>>>>>> 6ad30bd871f4d3887b4666d9b86364e89611ba63
     margin-top: 1rem;
 }
 
