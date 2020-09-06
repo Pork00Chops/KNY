@@ -199,12 +199,12 @@ nav {
 
 .info-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, min-max(25rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     grid-gap: 2.5rem;
 }
 
 .info-grid-item {
-    height: 40rem;
+    height: 37rem;
     padding: 5rem;
     color: #fafafa;
     position: relative;
@@ -222,20 +222,20 @@ nav {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: rgba(49, 24, 131, 0.9) 0% rgba(72, 56, 149, 0.8) 100%;
+    background-image:linear-gradient(135deg, rgba(49, 24, 131, 0.9) 0%, rgba(72, 56, 149, 0.8) 100%);
     z-index: -1;
 }
 
 .tanjiro {
-    background: url("") center no-repeat;
+    background: url("img/Tanjiro_at_Final_Selection.png") center no-repeat;
 }
 
 .insokue {
-    background: url("") center no-repeat;
+    background: url("img/main-qimg-b9acfa33fdf694a375c14953dd5305ef.png") center no-repeat;
 }
 
 .zenitsu {
-    background: url("") center no-repeat;
+    background: url("img/tumblr_051a768daf012c5c62d51c8ea98eee4c_7f7f4cde_640.jpg") center no-repeat;
 }
 
 .info-grid-item i {
