@@ -250,6 +250,40 @@ nav {
     margin: 2rem 0;
 }
 
+.hero3 {
+    width: 100%;
+    height: 80vh;
+    background: url("img/wallhaven-6kww77.png") center no-repeat fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.artist::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4.7rem;
+    background: url("img/wave-small-reversed.png") center no-repeat;
+    background-size: cover;
+}
+
+.artist {
+    width: 100%;
+    color: #fafafa;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.artist-text-box {
+    padding: 0 1.5rem;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
 footer {
     padding: 2.5rem 0;
     background-color: #d7d4ed;
