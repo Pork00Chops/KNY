@@ -305,12 +305,14 @@ footer {
     color: rgba(0, 0, 0, .7);
 }
 
+/*Media Queries*/
 @media screen and (min-width: 350px) {
     .main-message {
         transform: translateY(40%);
     }
 }
 
+/*Media
 @media screen and (min-width: 470px) {
     .hero::before {
         height: 9.4rem;
