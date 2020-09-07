@@ -282,6 +282,20 @@ nav {
     padding: 0 1.5rem;
     margin-bottom: 2rem;
     position: relative;
+    top: -8rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 8rem;
+    color: #eb648c;
+    opacity: .5;
+    z-index: -1;
+}
+
+.artist-mangaka img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+    border: 3px solid #eb648c;
 }
 
 footer {
